@@ -1,0 +1,14 @@
+/Users/arinakhmeluk/Desktop/coding/2 sem/laba_1.2/laba_1.2/bin/Debug/net9.0/laba_1.2
+/Users/arinakhmeluk/Desktop/coding/2 sem/laba_1.2/laba_1.2/bin/Debug/net9.0/laba_1.2.deps.json
+/Users/arinakhmeluk/Desktop/coding/2 sem/laba_1.2/laba_1.2/bin/Debug/net9.0/laba_1.2.runtimeconfig.json
+/Users/arinakhmeluk/Desktop/coding/2 sem/laba_1.2/laba_1.2/bin/Debug/net9.0/laba_1.2.dll
+/Users/arinakhmeluk/Desktop/coding/2 sem/laba_1.2/laba_1.2/bin/Debug/net9.0/laba_1.2.pdb
+/Users/arinakhmeluk/Desktop/coding/2 sem/laba_1.2/laba_1.2/obj/Debug/net9.0/laba_1.2.GeneratedMSBuildEditorConfig.editorconfig
+/Users/arinakhmeluk/Desktop/coding/2 sem/laba_1.2/laba_1.2/obj/Debug/net9.0/laba_1.2.AssemblyInfoInputs.cache
+/Users/arinakhmeluk/Desktop/coding/2 sem/laba_1.2/laba_1.2/obj/Debug/net9.0/laba_1.2.AssemblyInfo.cs
+/Users/arinakhmeluk/Desktop/coding/2 sem/laba_1.2/laba_1.2/obj/Debug/net9.0/laba_1.2.csproj.CoreCompileInputs.cache
+/Users/arinakhmeluk/Desktop/coding/2 sem/laba_1.2/laba_1.2/obj/Debug/net9.0/laba_1.2.dll
+/Users/arinakhmeluk/Desktop/coding/2 sem/laba_1.2/laba_1.2/obj/Debug/net9.0/refint/laba_1.2.dll
+/Users/arinakhmeluk/Desktop/coding/2 sem/laba_1.2/laba_1.2/obj/Debug/net9.0/laba_1.2.pdb
+/Users/arinakhmeluk/Desktop/coding/2 sem/laba_1.2/laba_1.2/obj/Debug/net9.0/laba_1.2.genruntimeconfig.cache
+/Users/arinakhmeluk/Desktop/coding/2 sem/laba_1.2/laba_1.2/obj/Debug/net9.0/ref/laba_1.2.dll
