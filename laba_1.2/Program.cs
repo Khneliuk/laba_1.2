@@ -101,7 +101,7 @@ using System.Text.Json;
                 else dict[c] = 1;
             }
             
-            var sortedDict = dict.OrderBy(pair => pair.Key).ToDictionary(pair => pair.Key, pair => pair.Value);
+            var sortedDict = dict.OrderBy(pair => pair.Key).ToDictionary(pair => pair.Key, pair => pair.Value); //для кожної пари беремо її ключ
 
             foreach (var pair in sortedDict)
             {
@@ -130,16 +130,16 @@ using System.Text.Json;
             List<int> numbers = new List<int> { -5, 12, 3, -2, 25, 8 }; 
             Console.WriteLine("початкова послідовність: " + string.Join(", ", numbers));
 
-            var multiplied = numbers.Select((x, index) => x * (index + 1));
+            var multiplied = numbers.Select((x, index) => x * (index + 1));//беремо число х і множимо найого порядкоивй номер
             Console.WriteLine("після множення: " + string.Join(", ", multiplied));
 
             var result = multiplied
-                .Where(x => Math.Abs(x) >= 10 && Math.Abs(x) <= 99) 
+                .Where(x => Math.Abs(x) >= 10 && Math.Abs(x) <= 99) //фільтруємо
                 .Reverse();                                        
 
          
             Console.Write("результат:");
-            Console.WriteLine(result.Any() ? string.Join(", ", result) : "нічого не знайдено");
+            Console.WriteLine(result.Any() ? string.Join(", ", result) : "нічого не знайдено"); //хоча б один ел виодимо через ,
         }
     } 
 
