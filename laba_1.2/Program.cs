@@ -41,7 +41,7 @@ using System.Text.Json;
         {
             Console.WriteLine("1 - ввести шлях вручну\n2 - використати стандартну папку");
             
-            string path = "";
+            string path = "/Users/arinakhmeluk/Desktop/coding/2 sem";
             string choice = Console.ReadLine();
 
             if (choice == "1")
@@ -51,7 +51,6 @@ using System.Text.Json;
             }
             else
             {
-                path = "/Users/arinakhmeluk/Desktop/coding/2 sem";
                 Console.WriteLine($"обраний шлях: {path}");
             }
             
