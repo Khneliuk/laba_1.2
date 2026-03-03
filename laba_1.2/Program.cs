@@ -94,7 +94,7 @@ using System.Text.Json;
             Dictionary<char, int> dict = new Dictionary<char, int>();
             foreach (char c in input)
             {
-                if (char.IsWhiteSpace(c)) continue;
+                if (!char.IsLetter(c)) continue;
                 
                 if(dict.ContainsKey(c)) dict[c]++;
                 
@@ -134,7 +134,7 @@ using System.Text.Json;
             Console.WriteLine("після множення: " + string.Join(", ", multiplied));
 
             var result = multiplied
-                .Where(x => Math.Abs(x) >= 10 && Math.Abs(x) <= 99) //фільтруємо
+                .Where(x => Math.Abs(x).ToString().Length >= 2)//фільтруємо
                 .Reverse();                                        
 
          
